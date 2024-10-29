@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 from setuptools import setup
-import cpplint
+import gmat_py_simple
 
 # some pip versions bark on comments
 def read_without_comments(filename):
