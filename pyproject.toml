@@ -1,2 +1,8 @@
 [project]
 name = "gmat_py_simple"
+[build-system]
+build-backend = "setuptools.build_meta:__legacy__"
+requires = [
+    "setuptools",
+    "wheel",
+]
